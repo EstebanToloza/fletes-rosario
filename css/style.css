@@ -9512,6 +9512,15 @@ p,
   animation: action 1s infinite alternate;
 }
 
+.fa-whatsapp-square {
+  width: 45px;
+  color: #25D366;
+  position: fixed;
+  bottom: 105px;
+  right: 28px;
+  background: white;
+}
+
 @keyframes action {
   0% {
     transform: translateY(0);
