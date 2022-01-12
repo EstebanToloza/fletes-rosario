@@ -3917,6 +3917,12 @@ input[type="button"].btn-block {
   }
 }
 
+.container-navbar {
+  position: fixed;
+  z-index: 3;
+  border-bottom: 1px solid #cccccc7a;
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -4789,14 +4795,14 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding: 5rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
 }
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 4rem 2rem;
+    padding: 7rem 2rem;
   }
 }
 
