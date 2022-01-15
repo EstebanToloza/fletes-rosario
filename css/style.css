@@ -4045,6 +4045,10 @@ input[type="button"].btn-block {
   list-style: none;
 }
 
+.m-left {
+  margin-left: auto;
+}
+
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
@@ -9718,4 +9722,29 @@ p,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+/* Custom CSS */
+
+@media (max-width: 400px) {
+  .name-header {
+    font-size: 20px;
+  }
+}
+
+.btn-cta {
+  max-width: 230px;
+  margin: auto;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header-subtitle {
+  margin-bottom: 80px;
+  color: #fff
+}
+
+.jumbotron {
+  background-position: center;
+  padding-bottom: 60px;
 }
