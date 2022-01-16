@@ -81,6 +81,16 @@
             }
         }
     });
+
+    //tab active
+    $(document).ready(function () {
+        $(".navbar-nav > a").click(function() {
+            //Busca todos los elementos del nav que tengan la clase active y los elimina
+            $(this).closest('.navbar-nav').find('a').removeClass('active');
+            //Al elemento seleccionado agrega la clase active
+            $(this).addClass('active');
+        });
+    });
     
 })(jQuery);
 
