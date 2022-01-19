@@ -9523,12 +9523,9 @@ p,
 }
 
 .fa-whatsapp-square {
-  width: 45px;
+  width: 28px;
   color: #25D366;
-  position: fixed;
-  bottom: 105px;
-  right: 28px;
-  background: white;
+  margin-right: 8px;
 }
 
 @keyframes action {
@@ -9675,9 +9672,9 @@ p,
   transition: .5s;
 }
 
-.team:hover .team-text {
+/* .team:hover .team-text {
   bottom: 100px;
-}
+} */
 
 .team .team-social {
   position: absolute;
@@ -9688,9 +9685,9 @@ p,
   transition: .5s;
 }
 
-.team:hover .team-social {
+/* .team:hover .team-social {
   bottom: 0;
-}
+} */
 
 .testimonial-carousel .owl-item {
   opacity: .2;
@@ -9755,4 +9752,26 @@ p,
 
 html {
   scroll-behavior: smooth;
+}
+
+.whatsapp-cel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-cel-container span a {
+  display: block;
+  margin-top: 3px;
+}
+
+.card-img-container {
+  height: 180px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.card-img-container img {
+  height: 100%;
 }
