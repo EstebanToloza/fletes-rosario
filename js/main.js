@@ -90,6 +90,10 @@
             //Al elemento seleccionado agrega la clase active
             $(this).addClass('active');
         });
+        $(".footer-nav > li > a").click(function() {
+            $('.navbar-nav').find('a').removeClass('active');
+            $('.inicio').addClass('active');
+        })
     });
     
 })(jQuery);

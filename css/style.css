@@ -9752,3 +9752,7 @@ p,
 #servicios, #nosotros {
   scroll-margin-top: 120px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
