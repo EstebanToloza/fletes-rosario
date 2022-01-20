@@ -9790,6 +9790,7 @@ html {
 
 .row-fletes {
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
