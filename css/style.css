@@ -9523,9 +9523,8 @@ p,
 }
 
 .fa-whatsapp-square {
-  width: 28px;
   color: #25D366;
-  margin-right: 8px;
+  margin-right: 15px;
 }
 
 @keyframes action {
@@ -9665,7 +9664,7 @@ p,
 .team .team-text {
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 120px;
   bottom: 0px;
   left: 0;
   border-bottom: 5px solid #FF4800;
@@ -9774,4 +9773,27 @@ html {
 
 .card-img-container img {
   height: 100%;
+}
+
+.fa-phone-square-alt, .fa-whatsapp-square {
+  font-size: 31px;
+}
+
+.fa-whatsapp-square:hover {
+  color: #1eb255;
+}
+
+.cel-number {
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+
+.row-fletes {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .card-img-container {
+    height: auto;
+  }
 }
