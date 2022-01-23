@@ -9793,12 +9793,32 @@ html {
   justify-content: center;
 }
 
+h3 {
+  color: rgb(255, 255, 255);
+}
+
+.row-footer {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.row-footer .col-lg-6 {
+  max-width: 100%;
+}
+
 @media (max-width: 768px) {
   .card-img-container {
     height: auto;
   }
+
+  .row-footer {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .row-footer .nav-item {
+    padding-bottom: 15px;
+  }
 }
 
-h3 {
-  color: rgb(255, 255, 255);
-}
+
