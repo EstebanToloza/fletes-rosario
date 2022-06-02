@@ -9773,6 +9773,7 @@ html {
 
 .card-img-container img {
   height: 100%;
+  object-fit: cover;
 }
 
 .fa-phone-square-alt, .fa-whatsapp-square {
